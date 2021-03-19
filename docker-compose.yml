@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  blazor_playground.server:
+    image: ${DOCKER_REGISTRY-}blazorplayground
+    build:
+      context: .
+      dockerfile: blazor_playground/Server/Dockerfile

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazor_playground.Client", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazor_playground.Shared", "blazor_playground\Shared\blazor_playground.Shared.csproj", "{5837E82E-24B5-4626-86D3-4924849A59F0}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C5299C48-0B5E-410D-B4FE-12FDF0B65063}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5837E82E-24B5-4626-86D3-4924849A59F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5837E82E-24B5-4626-86D3-4924849A59F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5837E82E-24B5-4626-86D3-4924849A59F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5299C48-0B5E-410D-B4FE-12FDF0B65063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5299C48-0B5E-410D-B4FE-12FDF0B65063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5299C48-0B5E-410D-B4FE-12FDF0B65063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5299C48-0B5E-410D-B4FE-12FDF0B65063}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
